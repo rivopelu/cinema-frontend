@@ -1,0 +1,69 @@
+.HomePage {
+
+    .container {
+        padding-top: 70px;
+
+
+        .input-group {
+            // width: 100%;
+            // background-color: red;
+            display: flex;
+            position: relative;
+            align-items: center;
+            margin-top: 10px;
+
+            i {
+                position: absolute;
+                left: 10px;
+            }
+
+            input {
+                background-color: transparent;
+                font-size: 14px;
+                padding: 5px 10px;
+                border: 1px solid rgb(48, 48, 48);
+                width: 100%;
+                color: white;
+                padding-left: 40px;
+                transition: .2s;
+                padding-right: 100px;
+                // width: 100%;
+
+                &:focus {
+                    transition: .2s;
+                    border-radius: 0;
+                    outline: none;
+                    border: 1px solid red;
+                    // background-color: rebeccapurple;
+                    box-shadow: 0 0 5px rgba(255, 0, 0, 0.74);
+                }
+
+            }
+
+            button {
+                position: absolute;
+                top: 0;
+                right: 0;
+
+            }
+
+        }
+
+        p {
+            margin-top: 20px;
+            color: silver;
+        }
+    }
+
+    .home-main {
+        background: url(./img/home.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-y: -200px;
+        height: 80vh;
+
+    }
+}
+
+
+

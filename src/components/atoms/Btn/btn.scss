@@ -1,0 +1,19 @@
+.btn {
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        transition: .2s;
+        background-color: rgb(143, 0, 0);
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.651);
+    }
+
+
+}
