@@ -1,0 +1,71 @@
+.HomeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    .container-card {
+        margin-top: 40px;
+        border: 1px solid rgba(255, 0, 0, 0.438);
+        backdrop-filter: blur(21px);
+        --webkit-backdrop-filter: blur(21px);
+        position: absolute;
+        width: 89%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0;
+        padding: 30px 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.315);
+        gap: 20px;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            i {
+                background-color: rgb(153, 24, 24);
+                font-size: 20px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                // padding: 10px;
+            }
+
+            h2 {
+                margin: 10px 0;
+            }
+
+            .input-content {
+                background-color: transparent;
+                color: white;
+                padding: 5px 0px;
+                font-size: 17px;
+                border: none;
+                border-bottom: 1px solid silver;
+                padding-bottom: 10px;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .HomeCard {
+
+        position: relative;
+        width: 100%;
+
+        .container-card {
+
+
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

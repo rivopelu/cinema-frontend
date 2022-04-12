@@ -67,3 +67,57 @@
 
 
 
+@media only screen and (min-width: 850px) {
+    .home-main {
+        .content {
+            display: flex;
+            text-align: center;
+            // background-color: cadetblue;
+            justify-content: center;
+            padding: 0 18%;
+
+            .container {
+                h1 {
+                    font-size: 60px;
+                }
+
+                .input-group {
+                    margin: 0 120px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+
+                    .input {
+                        &:focus {
+                            backdrop-filter: blur(21px);
+                            --webkit-backdrop-filter: blur(21px);
+
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .home-main {
+        .content {
+            display: flex;
+            text-align: center;
+            // background-color: cadetblue;
+            justify-content: center;
+            padding: 0 25%;
+
+            .container {
+                h1 {
+                    font-size: 60px;
+                }
+
+
+            }
+        }
+    }
+}
